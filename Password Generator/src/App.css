@@ -1,0 +1,53 @@
+
+.container{
+  width: 45vw;
+  background-color:#FFB5DA;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  left: 25vw;
+}
+.title{
+  text-align: center;
+  font-size: 30px;
+}
+.password-section{
+  display: flex;
+  gap:10px;
+  justify-content: center;
+  width: 90%;
+  background-color:  #EBD3F8;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+}
+#password{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+}
+#copy-btn{
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 20%;
+  background-color: #8FD14F;
+  color: white;
+}
+.criteria{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.lengthRange, .numbers, .characters{
+  display: flex;
+  justify-content: center;  /*Horozontal align*/
+  margin-top: 10px;
+}
+label{
+  font-size: 20px;
+  font-weight: 500;
+}
