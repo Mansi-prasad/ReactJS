@@ -14,7 +14,7 @@ import { CounterValue } from "./Components/CounterValue";
 // Using the store
 // 1. useSelector Hook gets a slice of the store.
 //  Const counter-useselector=> state.counter
-// 2. subscription is already setup and only will re-execute when only your slice is ChannelMergerNode.subcription automatically cleared also.Appdispatch actions using the useDispatch Hook.
+// 2. subscription is already setup and only will re-execute when only your slice is changed.
 function App() {
   const privacy = useSelector((state) => state.privacy);
   return (
