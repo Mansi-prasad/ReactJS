@@ -1,4 +1,3 @@
-import "./App.css";
 import Events from "./components/Events";
 import ConditionalRendering from "./components/ConditionalRendering";
 import ReactList from "./components/ReactList";
